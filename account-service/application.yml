@@ -5,6 +5,12 @@ spring:
   application:
     name: account-service
 
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
   datasource:
     url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
@@ -36,3 +42,10 @@ accounts:
   onCallSupport:
     - (555) 555-1234
     - (555) 523-1345
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

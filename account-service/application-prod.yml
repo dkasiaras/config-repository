@@ -3,7 +3,7 @@ build:
 
 
 accounts:
-  message: "prod"
+  message: "skatoules"
   contactDetails:
     name: "prod - Developer"
     email: "prod@eazybank.com"
