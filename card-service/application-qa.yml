@@ -1,0 +1,16 @@
+build:
+  version: "1.0"
+
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+accounts:
+  message: "qa"
+  contactDetails:
+    name: "qa - Developer"
+    email: "qa@eazybank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
